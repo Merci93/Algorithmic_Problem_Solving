@@ -1,8 +1,6 @@
-"""A function that adds the elements of an array."""
-
 def add_values(array: list) -> int|float:
     """
-    Sum values in an array.
+    A function that adds the elements of an array.
     If item in the array is not an integer or float, it skips this item and proceeds.
 
     :param array: an array whose elements are to be added.
@@ -14,7 +12,7 @@ def add_values(array: list) -> int|float:
         
         total_sum = 0
         for value in array:
-            if (type(value) == int or type(value) == float):
+            if isinstance(value, int) or isinstance(value, float):
                 total_sum += value
         return total_sum
     
