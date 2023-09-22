@@ -23,7 +23,8 @@ Finally, for elements **2**, Alice receives a point.\
 The return array is [1, 1] with Alice's score first and Bob's second.
 
 ### **Day 3**: 
-Write a function to check and return true if the first argument (string) passed in ends with the 2nd argument (also a string).\
+Write a function to check and return True if the second argument (string) starts with the same letter(s) (1 or 2) as
+the ending of the first argument (string)\
 Example:\
 strCheck('abc', 'bc') returns true\
 strCheck('abc', 'd') returns false\
