@@ -1,5 +1,4 @@
 # Daily Algorithmic challenges and solutions.
-Files:
 ### **Day 1**
 Given an array of integers, find the sum of its elements. Test array=[2,3,4,5,6].
 
@@ -7,11 +6,11 @@ Given an array of integers, find the sum of its elements. Test array=[2,3,4,5,6]
 Two students Alice and Bob submitted a school project. Their lecturer rates the two projects, awarding points on a
 scale from 1 to 100 for three categories: problem clarity, originality, and difficulty. The rating for Alice's
 challenge are: a = (a[0], a[1], a[2]), and the rating for Bob's challenge are b = (b[0], b[1], b[2]). Your task is to
-find their comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
+find their comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].\
 
-If a[i] > b[i], then Alice is awarded 1 point.
-If a[i] < b[i], then Bob is awarded 1 point.
-If a[i] = b[i], then neither person receives a point.
+If a[i] > b[i], then Alice is awarded 1 point.\
+If a[i] < b[i], then Bob is awarded 1 point.\
+If a[i] = b[i], then neither person receives a point.\
 
 Comparison points is the total points a person earned. Given a and b, determine their respective comparison points.
 
