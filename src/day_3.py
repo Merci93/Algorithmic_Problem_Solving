@@ -9,7 +9,7 @@ def check_str(arg_a: str, arg_b: str) -> bool:
     try:
         assert isinstance(arg_a, str) and isinstance(arg_b, str)
         
-        if (arg_a[-1] == arg_b[0]) or (arg_a[-2:] == arg_b[:2]):
+        if (arg_a[-1] == arg_b[0]) or (arg_a[-2:] == arg_b[:2]) or arg_a.endswith(arg_b):
             return True
         else:
             return False
