@@ -3,7 +3,6 @@ def shortest_words(text: str|list):
     Print the shortest word(s) in a string/list of words.
 
     :param text: String\list
-    :return: string of shortest words.
     """
     def find_words(words: list):
         shortest_words = []
