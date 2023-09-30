@@ -19,5 +19,5 @@ def add_values(array: list) -> int|float:
     except AssertionError:
         print("Not an array or array is empty.")
 
-
-print(add_values([1, 2, "check", 2, 2.5]))
+if __name__ == "__main__":
+    print(add_values([1, 2, "check", 2, 2.5]))
