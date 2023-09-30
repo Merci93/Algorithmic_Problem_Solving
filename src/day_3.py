@@ -18,5 +18,6 @@ def check_str(arg_a: str, arg_b: str) -> bool:
         print("Error!!!\nArgument(s) not a string")
     
 
-print(check_str("boy", "yogurt"))
-print(check_str("house", "eliminate"))
+if __name__ == "__main__":
+    print(check_str("boy", "yogurt"))
+    print(check_str("house", "eliminate"))
