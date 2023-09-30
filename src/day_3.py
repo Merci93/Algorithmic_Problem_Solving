@@ -20,4 +20,3 @@ def check_str(arg_a: str, arg_b: str) -> bool:
 
 print(check_str("boy", "yogurt"))
 print(check_str("house", "eliminate"))
-print(check_str("import", "exhume"))
