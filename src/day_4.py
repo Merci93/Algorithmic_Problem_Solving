@@ -28,8 +28,6 @@ def shortest_words(text: str|list):
         find_words(text)
 
 
-shortest_words("The quick brown fox jumps over the lazy dog")
-shortest_words(["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"])
-
-
-
+if __name__ == "__main__":
+    shortest_words("The quick brown fox jumps over the lazy dog")
+    shortest_words(["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"])
