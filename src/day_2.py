@@ -22,7 +22,8 @@ def comparison_points(student_a_scores: list, student_b_scores: list) -> list:
                 
     except (AssertionError, TypeError):
         print("Error!!!\n1. Argument(s) not a list.\n2. Contains an unsupported data type.\n3. a and b are not equal in length")
-    
 
-print(comparison_points([1, 2.5, 3], [3, 2, 1]) )
+
+if __name__ == "__main__":
+    print(comparison_points([1, 2.5, 3], [3, 2, 1]) )
     
