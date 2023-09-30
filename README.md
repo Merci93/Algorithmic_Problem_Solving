@@ -29,3 +29,9 @@ Example:\
 strCheck('abc', 'bc') returns true\
 strCheck('abc', 'd') returns false\
 strCheck(a,b) :- a and b are strings, if the last strings of 'a' are exactly 'b' then true else false
+
+### **Day 4**:
+Given a string of words, return the length of the shortest word(s). String will never be empty and you do not need to
+account for different data types.\
+e.g words=['collar', 'kola', 'umbrella', 'yemi']\
+shortest strings are 'kola' 'yemi' and length is 3
