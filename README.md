@@ -35,3 +35,6 @@ Given a string of words, return the length of the shortest word(s). String will 
 account for different data types.\
 e.g words=['collar', 'kola', 'umbrella', 'yemi']\
 shortest strings are 'kola' 'yemi' and length is 3
+
+### **Day 5**:
+Create a function that takes the age in years and returns the age in days.
