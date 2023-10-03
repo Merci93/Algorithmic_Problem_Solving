@@ -38,3 +38,13 @@ shortest strings are 'kola' 'yemi' and length is 3
 
 ### **Day 5**:
 Create a function that takes the age in years and returns the age in days.
+
+### **Day 6**:
+Write a function that calculates the factorial of a non-negative integer n.
+
+### **Day 7-8**:
+Write a function that checks whether a given string is a palindrome. A palindrome is a word, phrase, number, or other
+sequences of characters that reads the same forward and backward. For example, "racecar" is a palindrome.
+
+### **Day 9**:
+Write a function that takes a string as input and returns the string reversed.
